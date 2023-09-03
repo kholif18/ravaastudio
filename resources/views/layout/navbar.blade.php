@@ -21,19 +21,20 @@
             <div class="col-xl-8 col-lg-10">
                 <nav class="header__menu">
                     <ul>
-                        <li class="active"><a href="{{ url('/') }}">Home</a></li>
-                        <li><a href="#">Banner</a></li>
-                        <li><a href="#">Sablon</a></li>
-                        <li><a href="#">Content Design</a></li>
+                        <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Home</a></li>
+                        <li class="{{ Request::is('/banner') ? 'active' : '' }}"><a href="{{ url('/banner') }}">Banner</a></li>
+                        <li><a href="{{ url('/sablon') }}">Sablon</a></li>
+                        <li><a href="{{ url('/content-design') }}">Content Design</a></li>
                         <li><a href="#">Undangan</a>
                             <ul class="dropdown">
-                                <li><a href="./product-details.html">Product Details</a></li>
-                                <li><a href="./shop-cart.html">Shop Cart</a></li>
-                                <li><a href="./checkout.html">Checkout</a></li>
-                                <li><a href="./blog-details.html">Blog Details</a></li>
+                                <li><a href="{{ url('/erba') }}">Erba</a></li>
+                                <li><a href="{{ url('/falah') }}">Falah</a></li>
+                                <li><a href="{{ url('/kabinet') }}">Kabinet</a></li>
+                                <li><a href="{{ url('/website') }}">Website</a></li>
+                                <li><a href="{{ url('/img-video') }}">Img/Video</a></li>
                             </ul>
                         </li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="{{ url('/contact') }}">Contact</a></li>
                     </ul>
                 </nav>
             </div>

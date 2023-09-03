@@ -5,4 +5,5 @@
 @endsection
 
 @section('content')
+    <h1>Ini adalah dashboard admin</h1>
 @endsection
