@@ -32,7 +32,7 @@
                             </a>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Buttons tweed blazer</a></h6>
+                            <h6><a href="#">New Born 12RS</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -40,7 +40,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">Rp 35.000</div>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             <img src="{{ asset('img/product/product-2.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Flowy striped skirt</a></h6>
+                            <h6><a href="#">Banner New Born</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -58,7 +58,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 49.0</div>
+                            <div class="product__price">Rp 40.000</div>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">Rp 92.000</div>
                         </div>
                     </div>
                 </div>
@@ -86,7 +86,7 @@
                             <img src="{{ asset('img/product/product-4.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Slim striped pocket shirt</a></h6>
+                            <h6><a href="#">Sablon Kaos Pendek</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -94,7 +94,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">Rp 90.000</div>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                             <img src="{{ asset('img/product/product-4.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Fit micro corduroy shirt</a></h6>
+                            <h6><a href="#">Cetak Kartu</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -112,7 +112,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">Rp 8.000</div>
                         </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@
                             <img src="{{ asset('img/product/product-5.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Tropical Kimono</a></h6>
+                            <h6><a href="#">Undangan Alpha 01</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -130,7 +130,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 49.0 <span>$ 59.0</span></div>
+                            <div class="product__price">Rp 1.200 <span>Rp 1.600</span></div>
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@
                             <img src="{{ asset('img/product/product-7.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Contrasting sunglasses</a></h6>
+                            <h6><a href="#">Pensil Joyko P-88</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -148,7 +148,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 59.0</div>
+                            <div class="product__price">Rp 1.500</div>
                         </div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@
                             <img src="{{ asset('img/product/product-8.jpg') }}" alt="Product Image">
                         </a>
                         <div class="product__item__text">
-                            <h6><a href="#">Water resistant backpack</a></h6>
+                            <h6><a href="#">Kaos Kaki SMA Hitam</a></h6>
                             <div class="rating">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -166,7 +166,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                             </div>
-                            <div class="product__price">$ 49.0 <span>$ 59.0</span></div>
+                            <div class="product__price">Rp 8.000 <span>Rp 12.000</span></div>
                         </div>
                     </div>
                 </div>
