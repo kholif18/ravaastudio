@@ -66,3 +66,7 @@ Route::get('/kabinet', function () {
 Route::get('/website', function () {
     return view('undangan/website');
 });
+
+Route::get('/detail-product', function () {
+    return view('product/detail-product');
+});
