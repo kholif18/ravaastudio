@@ -26,11 +26,9 @@
             <div class="row property__gallery">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="product__item">
-                        <div class="product__item__pic">
-                            <a href="{{ url('/detail-product') }}">
-                                <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
-                            </a>
-                        </div>
+                        <a href="{{ url('/detail-product') }}">
+                            <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
+                        </a>
                         <div class="product__item__text">
                             <h6><a href="#">New Born 12RS</a></h6>
                             <div class="rating">

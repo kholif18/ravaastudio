@@ -26,11 +26,9 @@
             <div class="row property__gallery">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-6">
                     <div class="product__item">
-                        <div class="product__item__pic">
-                            <a href="{{ url('/detail-product') }}">
-                                <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
-                            </a>
-                        </div>
+                        <a href="{{ url('/detail-product') }}">
+                            <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
+                        </a>
                         <div class="product__item__text">
                             <h6><a href="#">New Born 12RS</a></h6>
                             <div class="rating">
@@ -168,6 +166,14 @@
                             </div>
                             <div class="product__price">Rp 8.000 <span>Rp 12.000</span></div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 text-center">
+                    <div class="pagination__option">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#"><i class="fa fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>

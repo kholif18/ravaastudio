@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('title')
-    Home
+    Ravaa Studio
 @endsection
 
 @section('content')
@@ -76,7 +76,7 @@
                 <div class="col-lg-8 col-md-8">
                     <ul class="filter__controls">
                         <li class="active" data-filter="*">All</li>
-                        <li data-filter=".banner">Banner</li>
+                        <li data-filter=".baner">Banner</li>
                         <li data-filter=".undangan">Undangan</li>
                         <li data-filter=".atk">ATK</li>
                         <li data-filter=".accessories">Accessories</li>
@@ -85,13 +85,11 @@
                 </div>
             </div>
             <div class="row property__gallery">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mix banner">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mix baner">
                     <div class="product__item">
-                        <div class="product__item__pic">
-                            <a href="{{ url('/detail-product') }}">
-                                <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
-                            </a>
-                        </div>
+                        <a href="{{ url('/detail-product') }}">
+                            <img src="{{ asset('img/product/product-1.jpg') }}" alt="Product Image">
+                        </a>
                         <div class="product__item__text">
                             <h6><a href="#">New Born 12RS</a></h6>
                             <div class="rating">
@@ -105,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mix banner">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mix baner">
                     <div class="product__item">
                         <a href="{{ url('/detail-product') }}">
                             <img src="{{ asset('img/product/product-2.jpg') }}" alt="Product Image">

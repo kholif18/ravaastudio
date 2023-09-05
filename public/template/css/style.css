@@ -2011,7 +2011,7 @@ ol {
 	left: 0;
 	top: 13px;
 	height: 1px;
-	width: 335px;
+	width: 500px;
 	background: #e1e1e1;
 	content: "";
 }
@@ -2021,7 +2021,7 @@ ol {
 	right: 0;
 	top: 13px;
 	height: 1px;
-	width: 335px;
+	width: 500px;
 	background: #e1e1e1;
 	content: "";
 }
@@ -3181,10 +3181,10 @@ ol {
 		padding: 5px 15px 5px 15px;
 	}
 	.nav::before {
-		width: 240px;
+		width: 390px;
 	}
 	.nav::after {
-		width: 240px;
+		width: 390px;
 	}
 }
 
@@ -3214,10 +3214,10 @@ ol {
 		margin-bottom: 50px;
 	}
 	.nav::before {
-		width: 125px;
+		width: 270px;
 	}
 	.nav::after {
-		width: 125px;
+		width: 270px;
 	}
 	.discount__content {
 		margin-bottom: 40px;
@@ -3584,10 +3584,10 @@ ol {
 		margin-right: 0;
 	}
 	.nav::before {
-		display: none;
+		width: 100px;
 	}
 	.nav::after {
-		display: none;
+		width: 100px;
 	}
 	.shop__cart__table {
 		overflow-x: auto;
