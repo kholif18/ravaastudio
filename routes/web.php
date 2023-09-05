@@ -24,7 +24,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('adminndex');
+    return view('admin/index');
 });
 
 Route::get('/login', function () {

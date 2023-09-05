@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="breadcrumb__links">
+                    <div class="breadcrumb__links active">
                         <a href="{{ url('/') }}"><i class="fa fa-home"></i> Home</a>
                         <span>Banner</span>
                     </div>
