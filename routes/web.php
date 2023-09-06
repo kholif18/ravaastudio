@@ -28,8 +28,17 @@ Route::get('/admin/home', function () {
 Route::get('/admin/product-list', function () {
     return view('admin/products/product-list');
 });
+
 Route::get('/admin/create-product', function () {
     return view('admin/products/create-product');
+});
+
+Route::get('/admin/category-list', function () {
+    return view('admin/products/category-list');
+});
+
+Route::get('/admin/create-category', function () {
+    return view('admin/products/create-category');
 });
 
 Route::get('/admin/contact', function () {

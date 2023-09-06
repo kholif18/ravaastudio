@@ -33,12 +33,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="components-badges.html">
+                    <a href="{{ url('admin/category-list') }}">
                         <i class="bi bi-circle"></i><span>Category List</span>
                     </a>
                 </li>
                 <li>
-                    <a href="components-breadcrumbs.html">
+                    <a href="{{ url('admin/create-category') }}">
                         <i class="bi bi-circle"></i><span>Add Category</span>
                     </a>
                 </li>

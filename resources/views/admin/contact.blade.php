@@ -19,7 +19,7 @@
             <div class="card-body">
                 <h5 class="card-title">Contact</h5>
                 <form class="row g-3">
-                    <div class="col-12">
+                    <div class="col-lg-6 col-md-6 col-12">
                         <label for="address" class="form-label">Address</label>
                         <input type="text" name="address" id="address" class="form-control" value="Gedong, Ds. Ngluyu, Kec. Ngluyu.">
                     </div>
@@ -39,7 +39,7 @@
                         <label for="phone" class="form-label">Phone</label>
                         <input type="text" name="phone" id="phone" class="form-control" value="0822-3337-7761">
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-6 col-md-6 col-12">
                         <label for="email" class="form-label">Support</label>
                         <input type="email" name="email" id="email" class="form-control" value="ravaastudio@gmail.com">
                     </div>
