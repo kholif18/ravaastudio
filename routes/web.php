@@ -19,6 +19,26 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/', [DashboardController::class, 'index']);
 
+// Admin Page
+
+Route::get('/admin/home', function () {
+    return view('admin/home');
+});
+
+Route::get('/admin/product-list', function () {
+    return view('admin/products/product-list');
+});
+Route::get('/admin/create-product', function () {
+    return view('admin/products/create-product');
+});
+
+Route::get('/admin/contact', function () {
+    return view('admin/contact');
+});
+
+
+// E-commerce Page
+
 Route::get('/', function () {
     return view('dashboard/index');
 });
