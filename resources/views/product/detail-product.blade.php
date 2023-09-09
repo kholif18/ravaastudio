@@ -64,51 +64,29 @@
                         <div class="product__details__widget">
                             <ul>
                                 <li>
+                                    <span>Category:</span>
+                                    <p>Sablon</p>
+                                </li>
+                                <li>
+                                    <span>Condition:</span>
+                                    <p>Baru</p>
+                                </li>
+                                <li>
                                     <span>Material:</span>
                                     <p>Catooon Combed 30s</p>
                                 </li>
                                 <li>
                                     <span>Size:</span>
-                                    <div class="size__btn">
-                                        <label for="xs-btn" class="active">
-                                            <input type="radio" id="xs-btn">
-                                            xs
-                                        </label>
-                                        <label for="s-btn">
-                                            <input type="radio" id="s-btn">
-                                            s
-                                        </label>
-                                        <label for="m-btn">
-                                            <input type="radio" id="m-btn">
-                                            m
-                                        </label>
-                                        <label for="l-btn">
-                                            <input type="radio" id="l-btn">
-                                            l
-                                        </label>
-                                    </div>
+                                    <p>XL | L | M | S</p>
                                 </li>
                                 <li>
-                                    <span>Color:</span>
-                                    <div class="color__checkbox">
-                                        <label for="red">
-                                            <input type="radio" name="color__radio" id="red" checked>
-                                            <span class="checkmark"></span>
-                                        </label>
-                                        <label for="black">
-                                            <input type="radio" name="color__radio" id="black">
-                                            <span class="checkmark black-bg"></span>
-                                        </label>
-                                        <label for="grey">
-                                            <input type="radio" name="color__radio" id="grey">
-                                            <span class="checkmark grey-bg"></span>
-                                        </label>
-                                    </div>
+                                    <span>Status:</span>
+                                    <p class="badge bg-success">Available</p>
+                                    <p class="badge bg-danger">Out of Stock</p>
                                 </li>
                             </ul>
                         </div>
-                        <div class="product__details__widget">
-                        </div>
+                        <hr>
                         <div class="product__details__price">Rp 92.000 <span>Rp 102.000</span></div>
                         <div class="product__details__button">
                             {{-- <div class="quantity">
@@ -190,7 +168,6 @@
                             </li>
                         </ul>
                         <div class="tab-content">
-                            <h6>Description</h6>
                             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut loret fugit, sed
                                 quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt loret.
                                 Neque porro lorem quisquam est, qui dolorem ipsum quia dolor si. Nemo enim ipsam

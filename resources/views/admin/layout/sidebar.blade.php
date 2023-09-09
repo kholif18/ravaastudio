@@ -58,4 +58,11 @@
                 <span>Footer</span>
             </a>
         </li><!-- End Footer Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{ url('admin/users') }}">
+                <i class="bi bi-people"></i>
+                <span>Users</span>
+            </a>
+        </li><!-- End Users -->
 </aside><!-- End Sidebar-->

@@ -20,10 +20,10 @@
             <div class="card-body">
                 <h5 class="card-title">Create Category</h5>
                 <form class="row g-3">
-                    <div class="col-12">
+                    <div class="col-md-4 col-lg-3">
                         <label for="address" class="form-label">Category</label>
-                        <input type="text" name="address" id="address" class="form-control" placeholder="Category">
                     </div>
+                    <input type="text" name="address" id="address" class="col-md-8 col-lg-9 form-control" placeholder="Category">
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Save</button>
                     </div>

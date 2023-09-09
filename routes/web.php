@@ -45,6 +45,14 @@ Route::get('/admin/contact', function () {
     return view('admin/contact');
 });
 
+Route::get('/admin/users', function () {
+    return view('admin/users');
+});
+
+Route::get('/admin/edit-profile', function () {
+    return view('admin/edit-profile');
+});
+
 
 // E-commerce Page
 
