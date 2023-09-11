@@ -41,8 +41,8 @@ Route::get('/admin/create-category', function () {
     return view('admin/products/create-category');
 });
 
-Route::get('/admin/contact', function () {
-    return view('admin/contact');
+Route::get('/admin/setting', function () {
+    return view('admin/setting');
 });
 
 Route::get('/admin/users', function () {

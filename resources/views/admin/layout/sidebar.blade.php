@@ -46,13 +46,6 @@
         </li><!-- End Products Nav -->
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="{{ url('admin/contact') }}">
-                <i class="bi bi-journal-text"></i>
-                <span>Contact</span>
-            </a>
-        </li><!-- End Contact Nav -->
-
-        <li class="nav-item">
             <a class="nav-link collapsed" href="#">
                 <i class="bi bi-layout-text-window-reverse"></i>
                 <span>Footer</span>
@@ -65,4 +58,11 @@
                 <span>Users</span>
             </a>
         </li><!-- End Users -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="{{ url('admin/setting') }}">
+                <i class="bi bi-gear"></i>
+                <span>Setting</span>
+            </a>
+        </li><!-- End Contact Nav -->
 </aside><!-- End Sidebar-->
